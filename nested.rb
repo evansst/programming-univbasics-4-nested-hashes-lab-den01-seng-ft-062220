@@ -58,7 +58,8 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
-    programmer_hash[:dennis_ritchie][:languages].flatten
+    new_hash = programmer_hash[:dennis_ritchie][:languages].flatten
+    new_hash
 
 end
 
